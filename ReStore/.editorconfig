@@ -1,0 +1,6 @@
+# Top-most EditorConfig file
+root = true
+
+# Set severity for style diagnostics to none for C# and VB files
+[*.{cs,vb}]
+dotnet_analyzer_diagnostic.category-Style.severity = none
